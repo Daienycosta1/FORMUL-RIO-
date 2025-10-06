@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title> Formulário </title>
+        <title>Formulário</title>
     </head>
         <body>
             <form action="/pagina-processa-dados-do-form" method="post">
