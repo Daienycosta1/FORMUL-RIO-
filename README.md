@@ -11,7 +11,7 @@
                     <input type="text" minlength="3" id="nome"/>
                     <label for="data_de_nascimento"> Data de nascimento: </label>
                     <input type="text" id="data_de_nascimento"/>
-                    <labelo for="CPF"> CPF: </labelo>
+                    <label for="CPF"> CPF: </label>
                     <input type="text" minlenght="11" id="cpf"/>
                 </fieldset>
             </form>
