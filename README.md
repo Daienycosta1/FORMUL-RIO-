@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<HTML>
+<html>
     <head>
         <title> Formulário </title>
     </head>
         <body>
-            <form action="/pagina-processa-dados-do-form" mothod="post">
+            <form action="/pagina-processa-dados-do-form" method="post">
                 <fieldset>
                     <legend> Dados Gerais </legend>
                     <label for="nome">Nome:</label>
@@ -16,4 +16,4 @@
                 </fieldset>
             </form>
         </body>
-</HTML>
+</html>
