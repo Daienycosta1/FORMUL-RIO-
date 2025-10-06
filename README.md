@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html>
+
+<HTML>
     <head>
+        <title> Formulário </title>
+    </head>
         <body>
-            <form
-            action="/pagina-processa-dados-do-form" method="post">
+            <form action="/pagina-processa-dados-do-form" mothod="post">
+                <fieldset>
+                    <legend> Dados Gerais </legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" minlength="3" id="nome"/>
+                    <label for="data_de_nascimento"> Data de nascimento: </label>
+                    <input type="text" id="data_de_nascimento"/>
+                    <labelo for="CPF"> CPF: </labelo>
+                    <input type="text" minlenght="11" id="cpf"/>
+                </fieldset>
             </form>
         </body>
-    </head>
-</html>
+</HTML>
